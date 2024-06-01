@@ -1,0 +1,66 @@
+/* index.html */
+
+.Box {
+    background-color: #d34949;
+}
+
+.link {
+    background-color: #7cdd3c;
+    overflow: hidden;
+}
+
+.linka {
+    background-color: #33690c;
+    float: left;
+    width: 50px;
+}
+
+.contend {
+    background-color: #49c3d3;
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(8, 82, 82, 0.774);
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(8, 82, 82, 0.774);
+    transition: all 0.3s ease-in-out;
+}
+
+.button {
+    background-color: #3205d6;
+    color: #e9d9e5;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.music {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+}
+
+
+/* login.html */
+
+.login {
+    background-color: #d34949;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
