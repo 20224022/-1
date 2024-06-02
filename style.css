@@ -1,66 +1,118 @@
-/* index.html */
-
-.Box {
-    background-color: #d34949;
-}
-
-.link {
-    background-color: #7cdd3c;
-    overflow: hidden;
-}
-
-.linka {
-    background-color: #33690c;
-    float: left;
-    width: 50px;
-}
-
-.contend {
-    background-color: #49c3d3;
-}
-
-.title {
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    background-color: rgba(8, 82, 82, 0.774);
-}
-
-.text {
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    background-color: rgba(8, 82, 82, 0.774);
-    transition: all 0.3s ease-in-out;
-}
-
-.button {
-    background-color: #3205d6;
-    color: #e9d9e5;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.music {
-    position: fixed;
-    top: 10px;
-    right: 50px;
-}
-
-
-/* login.html */
-
-.login {
-    background-color: #d34949;
-    height: 300px;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-}
+    /* index.html */
+    /* 背景图片 */
+    
+    .background {
+        background-image: url(./img/BG.jpg);
+        background-size: cover;
+    }
+    /* 导航栏 */
+    
+    .Box {
+        background-color: #d34949;
+    }
+    
+    .link {
+        background-color: #7cdd3c;
+        overflow: hidden;
+    }
+    
+    .linka {
+        background-color: #33690c;
+        float: left;
+        width: 50px;
+    }
+    
+    .contend {
+        background-color: #49c3d3;
+    }
+    /* 右侧栏 */
+    
+    .right {
+        position: absolute;
+        top: 0;
+        right: 50px;
+        width: 40%;
+        height: 100%;
+        background-color: #3205d6;
+        color: #e9d9e5;
+        padding: 20px;
+        overflow-y: scroll;
+    }
+    
+    .title {
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        background-color: rgba(8, 82, 82, 0.774);
+    }
+    
+    .text {
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        background-color: rgba(8, 82, 82, 0.774);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button {
+        background-color: #315305;
+        color: #e9d9e5;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    /* 左侧栏 */
+    
+    .left {
+        width: 30%;
+        height: 100%;
+        background-color: #4e4d50;
+        color: #e9d9e5;
+        padding: 20px;
+        overflow-y: scroll;
+    }
+    
+    .left-title {
+        position: relative;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        background-color: rgba(8, 82, 82, 0.774);
+    }
+    /* 音乐 视频位置 */
+    
+    .music {
+        position: fixed;
+        top: 10px;
+        right: 50px;
+        /* 防遮挡 */
+        z-index: 999;
+    }
+    
+    .video {
+        position: fixed;
+        bottom: 70px;
+        left: 50px;
+        width: 300px;
+        height: 200px;
+        background-color: #33690c;
+        border-color: #315305;
+        border-width: 10px;
+        /* 防遮挡 */
+        z-index: 999;
+    }
+    /* login.html */
+    
+    .login {
+        background-color: #d34949;
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    }
